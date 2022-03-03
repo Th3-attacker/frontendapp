@@ -89,16 +89,16 @@
     }
     .navbar-logo{
         position: absolute;
-        top: 0;
+        top: .5rem;
         left: 0;
-        transform: translate(25%,50%);
+        /* transform: translate(25%,50%); */
     }
     .menu-icon{
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100% ,  60%);
+        top: .5rem;
+        right: 1.5rem;
+        /* transform: translate(-100% ,  60%); */
         font-size: 1.8rem;
         cursor: pointer;
     }
