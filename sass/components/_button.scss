@@ -1,0 +1,17 @@
+.button {
+
+    // border: .1rem solid $dark-blue;
+    outline: none;
+    color: $white;
+    background: $dark-blue;
+    padding: .6rem 1.2rem;
+    // border-radius: .5rem;
+    transition: all 400ms ease-in-out;
+    font-weight: bold;
+
+    &:hover {
+        background: $light-blue;
+        color: $dark-blue;
+    }
+    
+}
