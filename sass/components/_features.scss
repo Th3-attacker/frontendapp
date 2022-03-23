@@ -1,0 +1,14 @@
+.features {
+    display: flex;
+    flex-flow: column wrap;
+
+    section {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img, div {
+            width: 50%;
+        }
+    }
+}
