@@ -1,12 +1,17 @@
 footer {
-    padding-top:2rem;
-    height:6rem;
+    padding-top:5rem;
+    height:4rem;
     display:flex;
     justify-content: center;
     align-items:center;
     text-align: center;
+    background: $dark-blue;
+    color: $white;
     p{
-        color: $dark-blue;
+        color: $white;
         text-align: center;
+    }
+    a{
+        color: $white;
     }
 }
